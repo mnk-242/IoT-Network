@@ -1,6 +1,9 @@
 # IoT-Network
 This project is a single Cisco Packet Tracer file that consists of a Smart Home System.
-The Smart Home System utilizes the features associated with IoT devices which are configured using Python and connected using basic Networking principles.
+The Smart Home System utilizes the features associated with IoT devices which are configured using Python and connected using basic Networking principles. Shown in the figure below.
+
+[image of the cisco simulation/ network model designed](images/fig2.png)
+
 
 The Internet side of the Network consists of the following:
   Server-PT: (Registrar svr)
@@ -37,7 +40,14 @@ Most PCs, servers and switches were interconnected using the Copper Straight-Thr
 **IoT Configuration**
 The topology refers to a right and left side, the latter of which refers to the IoT company providing the services while the former refers to the smart home system. 
 The IoT devices are configured to the server on the right (i.e. the company). 
-Through the company server, the IoT devices are conditioned to take actions based on certain triggers. (FIG39)
+Through the company server, the IoT devices are conditioned to take actions based on certain triggers. (Displayed on the figure below)
+Additionally the SBC on the right is programmed via python (as an example to show functionality). the programming enables the rocker switch tto manipulate the lamp and webcam.
+
+# IoT server configurations
+
 ![IoT server with set configurations](images/fig39.png)
 
-Additionally the SBC on the right is programmed via python (as an example to show functionality). the programming enables the rocker switch tto manipulate the lamp and webcam.
+# SBC Python Coding
+
+![SBC Code](images/fig44.png)
+
