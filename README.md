@@ -38,4 +38,6 @@ Most PCs, servers and switches were interconnected using the Copper Straight-Thr
 The topology refers to a right and left side, the latter of which refers to the IoT company providing the services while the former refers to the smart home system. 
 The IoT devices are configured to the server on the right (i.e. the company). 
 Through the company server, the IoT devices are conditioned to take actions based on certain triggers. (FIG39)
+![IoT server with set configurations](images/fig39.png)
+
 Additionally the SBC on the right is programmed via python (as an example to show functionality). the programming enables the rocker switch tto manipulate the lamp and webcam.
